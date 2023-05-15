@@ -1,3 +1,4 @@
+# HTTP Server
 server:
   port: 8081
 spring:
@@ -5,9 +6,9 @@ spring:
    config:
     server:
       git:
-       default-label: config-server #branch en repositorio github
-       uri: https://github.com/jcotrado/ms-springboot-basico-usuario.git 
-       search-paths : config-data
+       default-label: eureka 
+       uri: https://github.com/jcotrado/ms-springboot-basico-configService
+       search-paths: config-data
   application:
     name: config-service  
  
