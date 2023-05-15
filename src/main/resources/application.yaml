@@ -6,7 +6,7 @@ spring:
    config:
     server:
       git:
-       default-label: eureka
+       default-label: eureka 
        uri: https://github.com/jcotrado/ms-springboot-basico-configService
        search-paths: config-data
   application:
