@@ -1,5 +1,5 @@
-server: 
-  port: ${PORT:{SERVER_PORT:0}} #con esta opcion, se asignará un puerto cualquiera
+server:
+  port: ${PORT:{SERVER_PORT:0}}
 eureka:
   client:
     fetch-registry: true
@@ -7,4 +7,4 @@ eureka:
     service-url:
       default-zone: http://localhost:8761/eureka
     instance:
-      instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}} #con esta opcion, entrega un puerto aleatorio
+      instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
