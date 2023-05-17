@@ -16,14 +16,14 @@ spring:
           enabled:true
       routes:
         - id: usuario-service
-          uri: lba://usuario-service
+          uri: lb://usuario-service
           predicates:
             - Path=/usuario/**
         - id: carro-service
-          uri: lba://carro-service
+          uri: lb://carro-service
           predicates:
             - Path=/carro/**
         - id: moto-service
-          uri: lba://moto-service
+          uri: lb://moto-service
           predicates:
             - Path=/moto/**     
