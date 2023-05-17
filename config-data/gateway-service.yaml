@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8000
 eureka:
   client:
     fetch-registry: true
@@ -16,9 +16,9 @@ spring:
           enable:true
       routes:
         - id: usuario-service
-          uri: lba://usuario-service
+          uri: lba://user-service
           predicates:
-            - Path=/usuario/**
+            - Path=/user/**
         - id: carro-service
           uri: lba://carro-service
           predicates:
