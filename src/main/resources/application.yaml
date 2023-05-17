@@ -6,9 +6,9 @@ spring:
    config:
     server:
       git:
-       default-label: multiple-instances 
+       default-label: multiple-instances
        uri: https://github.com/jcotrado/ms-springboot-basico-configService
        search-paths: config-data
   application:
-    name: config-service  
+    name: config-service
  
