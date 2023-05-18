@@ -16,8 +16,8 @@ resilience4j.circuitbreaker:
             slidingWindowSize: 10
             permittedNumberOfCallsInHalfOpenState: 3
             slidingWindowType: TIME_BASED
-            minimumNumberOfCalls: 20
-            waitDurationInOpenState: 50s
+            minimumNumberOfCalls: 4
+            waitDurationInOpenState: 5s
             failureRateThreshold: 50
             eventConsumerBufferSize: 10
           motosCB:
@@ -25,8 +25,8 @@ resilience4j.circuitbreaker:
             slidingWindowSize: 10
             permittedNumberOfCallsInHalfOpenState: 3
             slidingWindowType: TIME_BASED
-            minimumNumberOfCalls: 20
-            waitDurationInOpenState: 50s
+            minimumNumberOfCalls: 4
+            waitDurationInOpenState: 5s
             failureRateThreshold: 50
             eventConsumerBufferSize: 10
           todosCB:
@@ -34,7 +34,7 @@ resilience4j.circuitbreaker:
             slidingWindowSize: 10
             permittedNumberOfCallsInHalfOpenState: 3
             slidingWindowType: TIME_BASED
-            minimumNumberOfCalls: 20
-            waitDurationInOpenState: 50s
+            minimumNumberOfCalls: 4
+            waitDurationInOpenState: 5s
             failureRateThreshold: 50
             eventConsumerBufferSize: 10
